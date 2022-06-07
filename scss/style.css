@@ -2574,7 +2574,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  /* color-adjust: exact; */
+  color-adjust: exact;
 }
 
 .form-check-input[type="checkbox"] {
@@ -7263,7 +7263,7 @@ fieldset:disabled .btn {
   top: 0;
   right: 0;
   left: 0;
-  height: 30vh;
+  height: 100% !important;
   max-height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(-100%);
@@ -7273,7 +7273,7 @@ fieldset:disabled .btn {
 .offcanvas-bottom {
   right: 0;
   left: 0;
-  height: 30vh;
+  height: 100% !important;
   max-height: 100%;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(100%);

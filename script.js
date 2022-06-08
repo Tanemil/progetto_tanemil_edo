@@ -1,4 +1,4 @@
-/* alert('Ciao Ema')  */
+alert('Ciao Ema') 
 
 let dati = [];  // array che conterrà i dati del server/memoria locale
 

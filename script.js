@@ -1,4 +1,4 @@
-alert('Ciao Ema') 
+/* alert('Ciao Ema')  */
 
 let dati = [];  // array che conterrà i dati del server/memoria locale
 
@@ -48,8 +48,8 @@ function reset(){            //reset dei campi
 }
 
 
-function trascrizionePost(){
-    
+function trascrizionePost(){      //funzione che trascriverà i post coi dati del server
+
 }
 
 

@@ -1,4 +1,4 @@
-alert('Ciao Ema') 
+/* alert('Ciao Ema')  */
 
 let dati = [];  // array che conterrà i dati del server/memoria locale
 
@@ -30,6 +30,7 @@ function prendiDati(){          //prende i dati, You don't say?
         dati.push(post)
         console.log(dati.length)
         reset()
+
     }else{
        /*  alert('Check input!') */
     }
@@ -45,6 +46,11 @@ function reset(){            //reset dei campi
     document.getElementsByClassName('form-control')[3].value = '';
     document.getElementsByClassName('form-control')[4].value = '';
     document.getElementsByClassName('form-control')[5].value = '';
+}
+
+
+function trascrizionePost(){      //funzione che trascriverà i post coi dati del server
+
 }
 
 

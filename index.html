@@ -6,8 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InfoManiac</title>
     <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
+
+     <!-- Nav-bar con ricerca post? -->
+
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Surfin' in tha blog <i class="bi bi-tsunami"></i></a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Surfin' BlogSA" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Surf</button>
+              </form>
+            </div>
+        </nav>
+
+    </header>
+
+
+
 
     <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="assets/vecteezy_spartan-logo-illustration-with-cyborg-robot_7459268.jpg" alt="" width="120" height="120">
@@ -53,13 +72,46 @@
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                 </div>
                 <div class="input-group justify-content-sm-center my-5">
-                    <button type="button" class="btn btn-primary">Crea post</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas" aria-label="Close">Crea post</button>
                 </div>
             
             </div>
             
         </div>
     </div>
+
+
+
+    <!-- Nel main andrà la pagina creata dimanicamente coi post -->
+
+    <main>
+
+
+        <!-- Scheda autore -->
+        <section class="container d-flex">
+            <div class="card" style="width: 25%;">
+                <img src="img/Lenovo Jetpack - Original.jpg" class="card-img-top" alt="imgAutore">
+                <div class="card-body">
+                <h5 class="card-title">Nome Autore</h5>
+                <p class="card-text">-DESCRIZIONE AUTORE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, dicta nulla. Ex enim id, exercitationem amet aliquid beatae, qui eveniet consectetur iure et non incidunt dolorem rem, impedit quae nam?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed ipsum, modi consequuntur quis quasi soluta, magni accusamus fuga eum voluptas beatae fugiat minima iure cumque vel vitae est nesciunt?</p>
+                </div>
+            </div>
+            <!-- Scheda post -->
+            <div class="card" style="width: 75%;">
+                <img src="img/rosaaaaaa.jpg" class="card-img-top" alt="imgPost">
+                <div class="card-body">
+                  <h5 class="card-title">Titolo Post</h5>
+                  <p class="card-text">-POST- Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda veritatis asperiores recusandae doloremque consequatur non vero quidem, aut iure architecto eveniet eaque voluptatum dignissimos tenetur consectetur aspernatur perferendis! Provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maxime quas ad et accusantium molestias facere aliquam, ullam nulla veniam magni omnis explicabo enim in odit deleniti facilis repellat soluta.</p>
+                  <p class="card-text"><small class="text-muted">?QUANDO è STATO POSTATO?</small></p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
     
     <footer>
 

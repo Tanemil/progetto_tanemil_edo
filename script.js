@@ -31,8 +31,9 @@ function prendiDati(){          //prende i dati, You don't say?
         console.log(dati.length)
         reset()
     }else{
-        alert('Check input!')
+       /*  alert('Check input!') */
     }
+    console.log(dati)
 
 
     
@@ -48,13 +49,4 @@ function reset(){            //reset dei campi
 
 
 
-
-
-
-
-
-
-
-
-let btn_creaPost =document.querySelector('.input-group button')     //bottone associato alla funzione
-btn_creaPost.addEventListener('click',prendiDati)
+document.querySelector('.input-group button').addEventListener('click',prendiDati) //bottone associato alla funzione
